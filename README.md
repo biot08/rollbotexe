@@ -25,10 +25,11 @@ All of the steps are important, but take special care to pay attention to step 7
 
 You will need Python 3 (version 3.8 or greater) and Pip working
 
-To download the Discord library, run:
+To download the Discord and SQLite Async libraries, run:
 
 ~~~
 pip install -U discord.py
+pip3 install -U --user aiosqlite
 ~~~
 
 The token you acquired in the pre-requisites section is important here.
